@@ -1465,6 +1465,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Domain.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Modelos.dll": {}
+        }
       }
     }
   },
@@ -5329,10 +5339,16 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Domain.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Modelos/Domain.Modelos.csproj",
+      "msbuildProject": "../Domain.Modelos/Domain.Modelos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Domain.Modelos >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0"
     ]
@@ -5343,11 +5359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\Desktop\\Treinamento\\WorkerApi\\WorkerApi.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj",
       "projectName": "WorkerApi",
-      "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\WorkerApi\\WorkerApi.csproj",
+      "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\Desktop\\Treinamento\\WorkerApi\\obj\\",
+      "outputPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5363,7 +5379,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj": {
+              "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

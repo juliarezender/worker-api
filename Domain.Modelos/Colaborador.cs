@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WorkerApi.Models
+namespace Domain.Modelos
 {
     public class Colaborador
     {

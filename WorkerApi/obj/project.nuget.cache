@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yRcVxXyiw+EqlM5T68bhV3b16jzFbTvJaNR+NOmBXUq5jR5DV6luTc1yhZkYuiIbD3IdlZ0oR2F3X9ZdRfQAVw==",
+  "dgSpecHash": "Xch5UzCpJw5CDXtka3FNblkzbN3DbAVobqXAixxqOVuKfwgUZKEH0Oz6wVJ+GMgWcfGB1AnnC5YpgZK6SJbB+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\WorkerApi\\WorkerApi.csproj",
+  "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

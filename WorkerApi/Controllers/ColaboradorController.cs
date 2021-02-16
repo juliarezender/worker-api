@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WorkerApi.Models;
+using Domain.Modelos;
 
 namespace WorkerApi.Controllers
 {
