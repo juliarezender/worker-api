@@ -4,8 +4,9 @@ using WorkerApi.Models;
 
 namespace WorkerApi.Controllers
 {
+    [ApiVersion("1")]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v{version:apiVersion}/colaborador/adicionar")]
     public class ColaboradorController : ControllerBase
     {
 
@@ -17,7 +18,7 @@ namespace WorkerApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Colaborador colaborador)
+        public IActionResult DadosColaborador([FromBody] Colaborador colaborador)
         {
             if (ModelState.IsValid)
             {
