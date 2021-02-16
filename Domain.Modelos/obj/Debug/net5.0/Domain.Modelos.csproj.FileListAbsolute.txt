@@ -1,0 +1,11 @@
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\bin\Debug\net5.0\Domain.Modelos.deps.json
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\bin\Debug\net5.0\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\bin\Debug\net5.0\ref\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\bin\Debug\net5.0\Domain.Modelos.pdb
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.AssemblyInfoInputs.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.AssemblyInfo.cs
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\ref\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.pdb

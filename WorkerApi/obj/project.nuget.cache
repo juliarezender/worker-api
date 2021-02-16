@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xch5UzCpJw5CDXtka3FNblkzbN3DbAVobqXAixxqOVuKfwgUZKEH0Oz6wVJ+GMgWcfGB1AnnC5YpgZK6SJbB+w==",
+  "dgSpecHash": "Ps7pkzM9k2J+Dj6zeqGDaTL5J/ViidmJ3Vqd/nFW0BZkV61A2btKPymwK1j/FSb2AV2H0/oJo1Va77eYnJ6r2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj",
   "expectedPackageFiles": [
@@ -98,10 +98,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0"
       ]
     }
   ]
