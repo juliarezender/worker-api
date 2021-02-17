@@ -1,0 +1,15 @@
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\Application.Service.deps.json
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\Application.Service.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\ref\Application.Service.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\Application.Service.pdb
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\bin\Debug\net5.0\Domain.Modelos.pdb
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.csprojAssemblyReference.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.AssemblyInfoInputs.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.AssemblyInfo.cs
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.csproj.CoreCompileInputs.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.csproj.CopyComplete
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\ref\Application.Service.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Service\obj\Debug\net5.0\Application.Service.pdb

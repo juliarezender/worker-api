@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Domain.Modelos;
-using Azure.Storage.Queues;
-using System;
-using System.Threading.Tasks;
+using Application.Service;
 
 namespace WorkerApi.Controllers
 {
@@ -14,36 +12,23 @@ namespace WorkerApi.Controllers
     {
 
         private readonly ILogger<ColaboradorController> _logger;
+        private IAzureQueue _azureQueue;
 
-        public ColaboradorController(ILogger<ColaboradorController> logger)
+        public ColaboradorController(ILogger<ColaboradorController> logger, IAzureQueue azureQueue)
         {
             _logger = logger;
+            _azureQueue = azureQueue;
         }
 
         [HttpPost]
-        public async Task<IActionResult> DadosColaboradorAsync([FromBody] Colaborador colaborador)
+        public IActionResult DadosColaboradorAsync([FromBody] Colaborador colaborador)
         {
             if (ModelState.IsValid)
             {
-                string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
-                QueueClient queue = new QueueClient(connectionString, "to-email"); 
-                
-                string value = string.Concat(colaborador.Nome, ", ", colaborador.Telefone, ", ", colaborador.Email);
-                await InsertMessageAsync(queue, value);
-                Console.WriteLine($"Sent: {value}");
-
-                return Ok();
+                _azureQueue.ReceberDados(colaborador);
+                return Ok("Armazenado na queue");
             }
             return BadRequest(ModelState);
-        }
-        static async Task InsertMessageAsync(QueueClient theQueue, string newMessage)
-        {
-            if (null != await theQueue.CreateIfNotExistsAsync())
-            {
-                Console.WriteLine("The queue was created.");
-            }
-
-            await theQueue.SendMessageAsync(newMessage);
         }
     }
 }
