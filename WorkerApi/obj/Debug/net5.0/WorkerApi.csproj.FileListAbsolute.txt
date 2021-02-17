@@ -30,3 +30,17 @@ C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\obj\Debug\net5.0\WorkerA
 C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\obj\Debug\net5.0\ref\WorkerApi.dll
 C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\obj\Debug\net5.0\WorkerApi.pdb
 C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\obj\Debug\net5.0\WorkerApi.genruntimeconfig.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Azure.Storage.Common.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Azure.Storage.Queues.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.Azure.Amqp.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.Azure.ServiceBus.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\WorkerApi\bin\Debug\net5.0\System.Memory.Data.dll

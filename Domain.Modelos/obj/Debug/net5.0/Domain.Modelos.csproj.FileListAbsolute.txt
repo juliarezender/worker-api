@@ -9,3 +9,4 @@ C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Do
 C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.dll
 C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\ref\Domain.Modelos.dll
 C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.pdb
+C:\Users\julia\Desktop\Treinamento\worker-api\Domain.Modelos\obj\Debug\net5.0\Domain.Modelos.csprojAssemblyReference.cache
