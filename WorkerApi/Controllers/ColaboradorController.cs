@@ -10,7 +10,6 @@ namespace WorkerApi.Controllers
     [Route("api/v{version:apiVersion}/colaborador/adicionar")]
     public class ColaboradorController : ControllerBase
     {
-
         private readonly ILogger<ColaboradorController> _logger;
         private IAzureQueue _azureQueue;
 
