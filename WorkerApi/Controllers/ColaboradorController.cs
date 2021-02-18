@@ -2,11 +2,13 @@
 using Microsoft.Extensions.Logging;
 using Domain.Modelos;
 using Application.Service;
+using System.Net.Mime;
 
 namespace WorkerApi.Controllers
 {
     [ApiVersion("1")]
     [ApiController]
+    [Produces(MediaTypeNames.Application.Json)]
     [Route("api/v{version:apiVersion}/colaborador/adicionar")]
     public class ColaboradorController : ControllerBase
     {

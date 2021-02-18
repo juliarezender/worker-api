@@ -9,7 +9,7 @@ namespace Function
     public static class Function1
     {
         [FunctionName("Function1")]
-        public static void Run([QueueTrigger("mystoragequeue", Connection = " ")] string myQueueItem, ILogger log)
+        public static void Run([QueueTrigger("mystoragequeue")] string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
 
@@ -19,7 +19,7 @@ namespace Function
             mailMessage.Subject = "subject";
             mailMessage.Body = new TextPart("plain")
             {
-                Text = "Hello"
+                Text = "xablau"
             };
             using (var smtpClient = new SmtpClient())
             {

@@ -12,7 +12,7 @@ namespace Application.Service
         public async Task ReceberDados(Colaborador colaborador)
         {
             string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
-            QueueClient queue = new QueueClient(connectionString, "to-email");
+            QueueClient queue = new QueueClient(connectionString, "mystoragequeue", new QueueClientOptions { MessageEncoding = QueueMessageEncoding.Base64 });
 
             string valoresColaborador = string.Concat(colaborador.Nome, ", ", colaborador.Telefone, ", ", colaborador.Email);
 
@@ -22,6 +22,7 @@ namespace Application.Service
         static async Task InserirMensagemNaQueue(QueueClient queue, string valoresColaborador)
         {
             if (null != await queue.CreateIfNotExistsAsync());
+            
 
             await queue.SendMessageAsync(valoresColaborador);
         }
