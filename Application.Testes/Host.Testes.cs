@@ -1,12 +1,9 @@
 using Application.Service;
-using Catel.Data;
 using Domain.Modelos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
-using System;
-using System.Web.Http;
 using WorkerApi.Controllers;
 
 namespace Application.Testes
