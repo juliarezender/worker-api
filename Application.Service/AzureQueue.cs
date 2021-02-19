@@ -23,7 +23,6 @@ namespace Application.Service
         {
             if (null != await queue.CreateIfNotExistsAsync());
             
-
             await queue.SendMessageAsync(valoresColaborador);
         }
     }

@@ -6,13 +6,17 @@ using MimeKit;
 
 namespace Function
 {
-    public static class Function1
+    public static class QueueTriggerFunction
     {
         [FunctionName("Function1")]
         public static void Run([QueueTrigger("mystoragequeue")] string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
+            ConfigurarMensagemASerEnviada();
+        }
 
+        public static void ConfigurarMensagemASerEnviada()
+        {
             var mailMessage = new MimeMessage();
             mailMessage.From.Add(new MailboxAddress("email@gmail.com", "email@gmail.com"));
             mailMessage.To.Add(new MailboxAddress("email@gmail.com", "email@gmail.com"));
@@ -21,6 +25,11 @@ namespace Function
             {
                 Text = "xablau"
             };
+            ConfigurarSMTPClient(mailMessage);
+        }
+
+        public static void ConfigurarSMTPClient(MimeMessage mailMessage)
+        {
             using (var smtpClient = new SmtpClient())
             {
                 smtpClient.Connect("smtp.gmail.com", 465, true);
