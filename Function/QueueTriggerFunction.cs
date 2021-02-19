@@ -9,7 +9,7 @@ namespace Function
     public static class QueueTriggerFunction
     {
         [FunctionName("Function1")]
-        public static void Run([QueueTrigger("mystoragequeue")] string myQueueItem, ILogger log)
+        public static void Run([QueueTrigger("toemail")] string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
             ConfigurarMensagemASerEnviada();
