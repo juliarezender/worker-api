@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Azure.Storage.Queues;
 using Domain.Modelos;
@@ -7,23 +8,26 @@ namespace Application.Service
 {
     public class AzureQueue : IAzureQueue
     {
-        public AzureQueue() {}
+        private readonly IAzureQueueFactory _azureQueueFactory;
+        public AzureQueue(IAzureQueueFactory azureQueueFactory) 
+        {
+            _azureQueueFactory = azureQueueFactory;
+        }
 
         public async Task ReceberDados(Colaborador colaborador)
         {
-            string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
-            QueueClient queue = new QueueClient(connectionString, "mystoragequeue", new QueueClientOptions { MessageEncoding = QueueMessageEncoding.Base64 });
+            var queue = _azureQueueFactory.ObterQueue();
 
-            string valoresColaborador = string.Concat(colaborador.Nome, ", ", colaborador.Telefone, ", ", colaborador.Email);
+            var colaboradorSerializado = JsonSerializer.Serialize(colaborador);
 
-            await InserirMensagemNaQueue(queue, valoresColaborador);
+            await InserirMensagemNaQueue(queue, colaboradorSerializado);
         }
 
-        static async Task InserirMensagemNaQueue(QueueClient queue, string valoresColaborador)
+        static async Task InserirMensagemNaQueue(QueueClient queue, string colaborador)
         {
-            if (null != await queue.CreateIfNotExistsAsync());
-            
-            await queue.SendMessageAsync(valoresColaborador);
+            await queue.CreateIfNotExistsAsync();
+
+            await queue.SendMessageAsync(colaborador);
         }
     }
 }

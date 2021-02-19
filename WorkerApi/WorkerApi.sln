@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Modelos", "..\Domain.Modelos\Domain.Modelos.csproj", "{83B12EC5-9046-449E-835C-E0294713134D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{5F064470-5B2C-476E-A351-9EB09F765E2E}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Service", "..\Application.Service\Application.Service.csproj", "{BEC0FA69-99FC-4004-B561-4760D9D63F7E}"
 EndProject
@@ -19,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function", "..\Function\Function.csproj", "{178E21E6-9C40-4FFF-80E0-7A592C663854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Testes", "..\Application.Testes\Application.Testes.csproj", "{BD7AB501-F925-4FE5-A269-13C16A1A2F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Testes", "..\Application.Testes\Application.Testes.csproj", "{BD7AB501-F925-4FE5-A269-13C16A1A2F13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

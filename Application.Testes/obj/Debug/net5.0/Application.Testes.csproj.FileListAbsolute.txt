@@ -117,3 +117,5 @@ C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\obj\Debug\net5.
 C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\obj\Debug\net5.0\ref\Application.Testes.dll
 C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\obj\Debug\net5.0\Application.Testes.pdb
 C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\obj\Debug\net5.0\Application.Testes.genruntimeconfig.cache
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\bin\Debug\net5.0\AutoFixture.dll
+C:\Users\julia\Desktop\Treinamento\worker-api\Application.Testes\bin\Debug\net5.0\Fare.dll

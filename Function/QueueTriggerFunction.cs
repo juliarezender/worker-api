@@ -8,7 +8,7 @@ namespace Function
 {
     public static class QueueTriggerFunction
     {
-        [FunctionName("Function1")]
+        [FunctionName("QueueTriggerFunction")]
         public static void Run([QueueTrigger("toemail")] string myQueueItem, ILogger log)
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
@@ -23,7 +23,7 @@ namespace Function
             mailMessage.Subject = "subject";
             mailMessage.Body = new TextPart("plain")
             {
-                Text = "xablau"
+                Text = "Texto"
             };
             ConfigurarSMTPClient(mailMessage);
         }
