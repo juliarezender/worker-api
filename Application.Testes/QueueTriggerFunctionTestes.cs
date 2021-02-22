@@ -1,22 +1,18 @@
 ﻿using Function;
 using NUnit.Framework;
+using Microsoft.Extensions.Logging;
 
 namespace Application.Testes
 {
     [TestFixture]
     public class QueueTriggerFunctionTestes
     {
-        // private QueueTriggerFunction _queueTriggerFunction;
-
-        [SetUp]
-        public void Setup()
-        {
-           // _queueTriggerFunction = new QueueTriggerFunction();
-        }
+        private readonly ILogger logger;
 
         [Test]
-        public void Teste()
-        { }
-
+        public void QueueTriggerTeste()
+        {
+            QueueTriggerFunction.Run("TestQueueItem", log: logger);
+        }
     }
 }
