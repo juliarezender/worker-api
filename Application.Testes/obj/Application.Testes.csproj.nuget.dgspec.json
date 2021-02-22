@@ -92,6 +92,15 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Application.Service\\Application.Service.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Application.Service\\Application.Service.csproj"
+              },
+              "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj"
+              },
+              "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\Function.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\Function.csproj"
+              },
               "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj": {
                 "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\WorkerApi\\WorkerApi.csproj"
               }
@@ -186,6 +195,78 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\Function.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\Function.csproj",
+        "projectName": "Function",
+        "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\Function.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Function\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Domain.Modelos\\Domain.Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

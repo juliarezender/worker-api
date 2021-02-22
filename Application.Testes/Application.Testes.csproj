@@ -15,6 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application.Service\Application.Service.csproj" />
+    <ProjectReference Include="..\Domain.Modelos\Domain.Modelos.csproj" />
+    <ProjectReference Include="..\Function\Function.csproj" />
     <ProjectReference Include="..\WorkerApi\WorkerApi.csproj" />
   </ItemGroup>
 
