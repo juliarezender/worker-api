@@ -1,7 +1,5 @@
-using MailKit.Net.Smtp;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
-using MimeKit;
 
 
 namespace Function
