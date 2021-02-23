@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0CE11VAJ6zuCHtYCpc2OEI6O+d2O0fZ4gVpyKI+ErTsI3TnnQ87YQrPoH62isDxvMQbdCtBy78bQeSdLBpnX7w==",
+  "dgSpecHash": "yXAIvJOQtPSoEDtUtscXPYzuJUHI71aubfj7ucERd9OPZSFYmWv3lUiRsKzcukoZvFyt5t0TMXPQP2DYsTxxVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\worker-api\\Application.Testes\\Application.Testes.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.1.0\\microsoft.aspnetcore.webutilities.2.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.cosmos.table\\1.0.7\\microsoft.azure.cosmos.table.1.0.7.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.documentdb.core\\2.10.0\\microsoft.azure.documentdb.core.2.10.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.functions.extensions\\1.1.0\\microsoft.azure.functions.extensions.1.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.keyvault.core\\2.0.4\\microsoft.azure.keyvault.core.2.0.4.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.storage.blob\\11.1.7\\microsoft.azure.storage.blob.11.1.7.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.azure.storage.common\\11.1.7\\microsoft.azure.storage.common.11.1.7.nupkg.sha512",
@@ -57,8 +58,8 @@
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\2.1.0\\microsoft.extensions.configuration.environmentvariables.2.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\2.1.0\\microsoft.extensions.configuration.fileextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.configuration.json\\2.1.0\\microsoft.extensions.configuration.json.2.1.0.nupkg.sha512",
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.0\\microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\2.1.0\\microsoft.extensions.fileproviders.physical.2.1.0.nupkg.sha512",
